@@ -1,0 +1,32 @@
+# Maven build directory
+backend/target/
+
+# Node dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Maven binary folder
+maven/
+
+# Temp and Logs
+*.log
+backend/log.txt
+backend/test_output.txt
+backend/java_out.txt
+
+# OS metadata
+.DS_Store
+Thumbs.db
